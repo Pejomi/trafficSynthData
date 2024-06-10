@@ -1,0 +1,23 @@
+path: .
+train: images/train  # train images
+val: images/val  # validation images
+batch_size: 16
+
+nc: 15  # Number of classes
+names: [
+  'lastbil-overhaling-forbudt',
+  'cykler-forbudt',
+  'motorkøretøjer-forbudt',
+  'vejarbejde',
+  'hastighed-50',
+  'vigepligt',
+  'hastighed-90',
+  'passage-højre',
+  'hastighed-110',
+  'standsning-forbudt',
+  'parkering-forbudt',
+  'højresving-forbudt',
+  'hastighed-120',
+  'hastighed-80',
+  'cykler-fodgængere-fællessti'
+]
